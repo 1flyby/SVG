@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>button_eye</title>
+	<style type="text/css" media="screen"></style>
+	<style>
+    	svg {
+            border-style: solid;
+            border-radius: 45px;
+            border-width:0px;}
+      #beg {
+            fill:rgba(0,0,0,0);
+            stroke-width:10;
+            stroke:rgba(0,0,0,1);
+            stroke-linejoin:bevel;
+            stroke-dasharray: 1000;
+            stroke-dashoffset: 1000;
+            animation: dash 6s linear forwards }
+      @keyframes dash {
+            to {stroke-dashoffset: 1;}}
+      #beg:hover {fill:rgba(0,0,0,0);
+            fill:rgba(0,0,0,0);
+            stroke-width:10;
+            stroke:rgba(0,0,0,1);
+            stroke-linejoin:bevel;
+            stroke-dasharray: 3;
+            stroke-dashoffset: 135;
+            animation: dash 6s linear forwards infinite;}
+        @keyframes dash {
+            to {stroke-dashoffset: 1;}}
+        #beg:active {
+            fill:rgb(0,0,0,0);
+            stroke-width:10;
+            stroke:rgba(0,0,0,1);
+            stroke-linejoin:bevel;
+            stroke-dasharray: 3;
+            stroke-dashoffset: 350;
+            animation: dash 6s linear forwards infinite;}
+        @keyframes dash {
+            to {stroke-dashoffset: 1;}}
+    </style>
+</head>
+<body>
+<a href="*" target="_blank">
+    <svg width="230px" height="98px" viewBox="245 375 110 114">
+        <g id="beg">
+            <path d="m 430.19145,430.31912 c -25.11602,24.32122 -75.15544,52.98798 -129.37309,52.43253 -70.6642,-0.0803 -113.99073,-37.61041 -123.06227,-47.30599 m -7.08291,-0.14861 c 7.07459,-6.5977 55.17415,-52.62843 129.06497,-53.52766 73.17452,-0.0691 117.67166,41.58384 123.38066,48.23298"  id="bev"></path>
+            <path d="m 300.34148,472.58625 c -28.10081,-0.89923 -39.5523,-23.36834 -40.00192,-39.77921 0.89923,-22.20292 17.52127,-40.70152 40.00192,-40.92632 17.75971,-0.44961 39.89332,14.02258 39.56595,41.0058 0.67442,20.6822 -17.31011,39.69973 -39.56595,39.69973 z"
+  id="bez"></path>
+        </g>
+    </svg>
+</a>
+</body>
+</html>
